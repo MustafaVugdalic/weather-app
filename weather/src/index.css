@@ -23,6 +23,30 @@ body {
   z-index: 1000; /* Ensure the header is above other elements */
 }
 
+/* Add this to your CSS file */
+#map-container {
+  height: 400px; /* Adjust height as needed */
+  width: 40%; /* Set width to fill its container */
+}
+
+.app .header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.app .header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: font-size 0.3s ease; /* Adding transition effect */
+}
+
+.app .header a:hover {
+  color: #ddd;
+  font-size: 2.2rem; /* Increasing font size on hover */
+}
+
 .header ul {
   list-style-type: none;
   display: flex;

@@ -1,4 +1,3 @@
-// Weather.js
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -31,13 +30,20 @@ function Weather() {
 
   return (
     <div className="app weather-page">
-      <div className="app">
-        <ul>
-          <li>
-            <Link to="/">Home </Link>
-            <Link to="/documentation">Documentation</Link>
-          </li>
-        </ul>
+      <header className="header">
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/documentation">Documentazione</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div className="content">
         <div className="search">
           <input
             value={location}

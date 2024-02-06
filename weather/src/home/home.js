@@ -20,8 +20,8 @@ function Home() {
 
       {/* Explicitly create a separate content section */}
       <div className="content">
-        <h2>Casa pagina del dio bestia</h2>
-        <p>attenzione pericolo imminente</p>
+        <h2>Home page</h2>
+        <p>weather app</p>
       </div>
     </div>
   );
