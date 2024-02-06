@@ -18,9 +18,9 @@ body {
 
 
 .header {
-  background-color: rgba(0, 0, 0, 0.3); /* Black with 10% opacity */
-  padding: 1rem; /* Adjust the padding as needed */
-  z-index: 1000; /* Ensure the header is above other elements */
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  z-index: 1000; 
 }
 
 .app .header ul {
@@ -33,12 +33,12 @@ body {
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
-  transition: font-size 0.3s ease; /* Adding transition effect */
+  transition: font-size 0.3s ease;
 }
 
 .app .header a:hover {
   color: #ddd;
-  font-size: 2.2rem; /* Increasing font size on hover */
+  font-size: 2.2rem;
 }
 
 .header ul {
@@ -58,7 +58,7 @@ body {
 }
 
 .content {
-  padding: 2rem; /* Adjust the padding as needed */
+  padding: 2rem;
   color: white;
 }
 

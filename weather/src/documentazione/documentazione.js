@@ -5,7 +5,6 @@ import Image2 from './pic2.gif';
 
 function DocumentationPage() {
   const openUrl = () => {
-    // Replace 'your-url-here' with the actual URL you want to open
     window.open('https://www.canva.com/design/DAF8DIZuP9E/TRoUNyPgzSShZHsOPj_T7A/view?utm_content=DAF8DIZuP9E&utm_campaign=designshare&utm_medium=link&utm_source=editor', '_blank');
   };
 
