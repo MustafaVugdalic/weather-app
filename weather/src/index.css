@@ -23,12 +23,6 @@ body {
   z-index: 1000; /* Ensure the header is above other elements */
 }
 
-/* Add this to your CSS file */
-#map-container {
-  height: 400px; /* Adjust height as needed */
-  width: 40%; /* Set width to fill its container */
-}
-
 .app .header ul {
   list-style-type: none;
   display: flex;
@@ -161,5 +155,59 @@ h1 {
 }
 
 .documentazione-page {
-  background: url('./assets/wall.jpg') no-repeat center center/cover;
+  background: url('./assets/wall.gif') no-repeat center center/cover;
+}
+
+.layer-container {
+  position: relative;
+  display: flex;
+}
+
+.layer {
+  position: absolute;
+  margin: 200px;
+  padding: 3px;
+  
+}
+
+.layer-left {
+  left: 0;
+  border: 3px solid #ccc;
+}
+
+.layer-right {
+  right: 0;
+  border: 3px solid #ccc;
+}
+ 
+.button-layer {
+  margin-left: 45%;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.button-layer button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.button-layer button:hover {
+  transform: scale(1.5);
+}
+
+.button-layer button {
+  background-color: rgb(49, 50, 54);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.text-center {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
 }
