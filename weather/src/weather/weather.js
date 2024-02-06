@@ -18,12 +18,10 @@ function Weather() {
     }
   };
 
-  // Function to convert Fahrenheit to Celsius
   const convertToFahrenheit = (tempF) => {
     return ((tempF - 32) * 5) / 9;
   };
 
-  // Function to convert MPH to KPH
   const convertToKPH = (speedMPH) => {
     return speedMPH * 1.60934;
   };
